@@ -1,0 +1,107 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_PMOS_DSG Q1
+U 1 1 5FBA007B
+P 5600 1500
+F 0 "Q1" H 5805 1546 50  0000 L CNN
+F 1 "Q_PMOS_DSG" H 5805 1455 50  0000 L CNN
+F 2 "" H 5800 1600 50  0001 C CNN
+F 3 "~" H 5600 1500 50  0001 C CNN
+	1    5600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q2
+U 1 1 5FBA12B5
+P 5300 2150
+F 0 "Q2" H 5490 2196 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 5490 2105 50  0000 L CNN
+F 2 "" H 5500 2250 50  0001 C CNN
+F 3 "~" H 5300 2150 50  0001 C CNN
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5FBA1951
+P 5400 1150
+F 0 "R10" H 5470 1196 50  0000 L CNN
+F 1 "R" H 5470 1105 50  0000 L CNN
+F 2 "" V 5330 1150 50  0001 C CNN
+F 3 "~" H 5400 1150 50  0001 C CNN
+	1    5400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5FBA206E
+P 5700 1850
+F 0 "R11" H 5770 1896 50  0000 L CNN
+F 1 "R" H 5770 1805 50  0000 L CNN
+F 2 "" V 5630 1850 50  0001 C CNN
+F 3 "~" H 5700 1850 50  0001 C CNN
+	1    5700 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 850  5700 850 
+Wire Wire Line
+	5400 850  5400 1000
+Wire Wire Line
+	5700 850  5700 1300
+Connection ~ 5700 850 
+Wire Wire Line
+	5700 850  5400 850 
+Wire Wire Line
+	5400 1300 5400 1500
+Connection ~ 5400 1500
+Wire Wire Line
+	5400 1500 5400 1950
+Wire Wire Line
+	5400 2350 5400 2650
+Wire Wire Line
+	5400 2650 5700 2650
+Wire Wire Line
+	5700 2650 5700 2000
+Wire Wire Line
+	4500 2150 5100 2150
+$Comp
+L power:GND #PWR0124
+U 1 1 5FBB5D48
+P 5700 2650
+F 0 "#PWR0124" H 5700 2400 50  0001 C CNN
+F 1 "GND" H 5705 2477 50  0000 C CNN
+F 2 "" H 5700 2650 50  0001 C CNN
+F 3 "" H 5700 2650 50  0001 C CNN
+	1    5700 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 2650
+Text HLabel 4500 2150 0    50   Input ~ 0
+IN
+$Comp
+L power:+12V #PWR0125
+U 1 1 5FBB676D
+P 6100 850
+F 0 "#PWR0125" H 6100 700 50  0001 C CNN
+F 1 "+12V" V 6115 978 50  0000 L CNN
+F 2 "" H 6100 850 50  0001 C CNN
+F 3 "" H 6100 850 50  0001 C CNN
+	1    6100 850 
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
