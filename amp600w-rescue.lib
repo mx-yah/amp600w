@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Conn_02-mx_sch_lib
+#
+DEF Conn_02-mx_sch_lib X 0 40 Y N 1 F N
+F0 "X" 200 100 50 H V C CNN
+F1 "Conn_02-mx_sch_lib" 300 -200 50 H V C CNN
+F2 "" 1750 -50 50 H I C CNN
+F3 "" 1750 -50 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 150 50 650 -150 1 1 10 f
+P 2 0 1 10 150 -50 650 -50 N
+P 2 0 1 10 300 -150 300 50 N
+X Pin_1 1 0 0 150 R 50 50 1 1 P
+X Pin_2 2 0 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
