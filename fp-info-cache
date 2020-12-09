@@ -1,4 +1,4 @@
-18895136487795541
+18898370251332429
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82607,9 +82607,23 @@ TPA3255
 44
 44
 mx_pcb_lib
+KiCadLibs_ESP32-WROOM-32-Espressif-Symbol-Kicad-62379
+
+
+0
+39
+39
+mx_pcb_lib
 TPA3255DDV
 
 
 0
 44
 44
+mx_pcb_lib
+TerminalBlock_Degson_DG25C-B_P7.62mm
+http://www.degson.com/ru/pro_detail/id/978
+Degson DG25C-B terminal block pitch 7.62mm
+0
+2
+2
