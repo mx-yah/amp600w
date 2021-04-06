@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mx_sch_lib:TPA3255 U6
+L 0_mx_sch_lib:TPA3255 U6
 U 1 1 5FB312C8
 P 5000 2300
 F 0 "U6" H 5500 2465 50  0000 C CNN
 F 1 "TPA3255" H 5500 2374 50  0000 C CNN
-F 2 "mx_pcb_lib:TPA3255DDV" H 4900 2300 50  0001 C CNN
+F 2 "0_mx_pcb_lib:TPA3255DDV" H 4900 2300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tpa3255.pdf" H 4900 2300 50  0001 C CNN
 	1    5000 2300
 	1    0    0    -1  
@@ -1119,7 +1119,7 @@ Connection ~ 10000 5650
 Text Notes 10050 5550 0    50   ~ 0
 1k / 8.75k 1%
 $Comp
-L mx_sch_lib:CON02 X4
+L 0_mx_sch_lib:CON02 X4
 U 1 1 5FC13ECE
 P 9550 3500
 F 0 "X4" H 9750 3700 50  0000 C CNN
@@ -1266,7 +1266,7 @@ Connection ~ 3150 6700
 Wire Wire Line
 	3150 6700 3150 6900
 $Comp
-L mx_sch_lib:CON04 X7
+L 0_mx_sch_lib:CON04 X7
 U 1 1 600D1811
 P 1450 5900
 F 0 "X7" H 1768 6117 50  0000 C CNN
@@ -1699,7 +1699,7 @@ F 3 "" H 10300 6150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L mx_sch_lib:CON02 X3
+L 0_mx_sch_lib:CON02 X3
 U 1 1 5FD2EA99
 P 9750 2400
 F 0 "X3" H 10300 2500 50  0000 C CNN
